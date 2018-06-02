@@ -11,3 +11,6 @@ RUN apt-get update \
 	&& make install 
 
 #RUN pecl install imgick
+# 这个过程需要用交互模式 输入 /usr/local/imagemagick
+
+#RUN docker-php-ext-enable imagick
